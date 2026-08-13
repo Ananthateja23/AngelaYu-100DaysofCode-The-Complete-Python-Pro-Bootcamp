@@ -1,6 +1,8 @@
+# Import turtle and random module
 import turtle as t
 import random
 
+# Create a Turtle Object
 genie = t.Turtle()
 
 # search "turtle colors python"
@@ -9,12 +11,14 @@ genie = t.Turtle()
 
 colors = ["CornflowerBlue", "DarkOrchid", "IndianRed", "DeepSkyBlue", "LightSeaGreen", "wheat", "SlateGray", "SeaGreen"]
 
+# function definition to draw different shapes
 def draw_shape(num_sides):
     angle = 360 / num_sides
     for side in range(num_sides):
         genie.forward(100)
         genie.right(angle)
 
+# loop generates nums 3 to 11 for each polygon
 for shape_side_n in range(3, 11):
     genie.color(random.choice(colors))
     draw_shape(shape_side_n)
