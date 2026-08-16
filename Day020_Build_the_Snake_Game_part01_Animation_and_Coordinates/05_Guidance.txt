@@ -37,14 +37,16 @@ own tail.
 So the snake basically can't chase his own tail. And as the snake gets longer, this problem is more likely to occur.
 And when their head hits any part of the body of the snake, then it's again, game over. So these are the seven steps
 that it takes to create the snake game.
-      (1) Create a snake body
-      (2) Move the snake
-      (3) Create snake food
-      (4) Detect collision with food
-      (5) Create a scoreboard
-      (6) Detect collision with wall
-      (7) Detect collision with tail
-"""
+
+
+(1) Create a snake body
+(2) Move the snake
+(3) Create snake food
+(4) Detect collision with food
+(5) Create a scoreboard
+(6) Detect collision with wall
+(7) Detect collision with tail
+
 
 Does that mean that I haven't learned anything?
 
