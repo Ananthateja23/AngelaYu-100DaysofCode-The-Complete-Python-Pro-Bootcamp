@@ -1,6 +1,5 @@
 from turtle import Turtle
 POSITIONS = [(0, 0), (-20, 0), (-40, 0)]
-USECOLORS = ["red", "green", "blue"]
 UP = 90
 DOWN = 270
 LEFT = 180
