@@ -3,6 +3,7 @@
 # step03: Control the snake
 # step04: detect collision with food
 # step05: create a scoreboard
+# step06: detect collision with wall
 
 # Import necessary modules
 from turtle import Screen
