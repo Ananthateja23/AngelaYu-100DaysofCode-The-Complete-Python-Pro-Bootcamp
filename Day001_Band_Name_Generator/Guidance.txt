@@ -1,0 +1,82 @@
+(1) Printing to the console in python 
+(1.1) Now, the thing I want you to know is that all programmers make mistakes. 
+We all make lots of errors, like forgetting to add the double quotes at the end of the string, or forgetting to add a closing parentheses.
+These things are just common errors because we're human. 
+But the thing that differentiates great programmers is we're really good at figuring out what the problem is and how to fix it.
+
+(1.2) So you can imagine that coding is just a whole bunch of problems that you have to solve. 
+And in this case, when we get some sort of red text, and our code is not doing what we expect it to do, then all we have to do is take this entire error message where it says something, something error, and this is some sort of message that we're supposed to understand, and we're simply going to drop it into Google.
+And usually the first link you come across will be from a website called “stackoverflow.com”. And this is basically the Q&amp;A website that all developers will go to whenever something is wrong with their code, or when they can't figure out how to do something.
+So if we click on this link, you can see that somebody else has also had this error, and some kind souls have told us that the solution might be the fact that you're missing a double quote before the end of the line.
+So if we take a look back at our code, the code that generated this error looks like this. And indeed, we are missing a double quote at the end of our string.
+
+(1.3) Coding Exercise01: Printing Practice
+
+(2) String Manipulation and Code Intelligence 
+
+(2.1) So the message here is be careful when you're adding spaces. Make sure you know what it's doing, and when you see the error, IndentationError, remember what you learned in this lesson to be able to fix it. Now, as helpful as these warnings and
+errors are, you'll notice that I'm putting a lot of emphasis on looking at the errors that come out after we hit Run, and that's because this comes from the Python compiler itself. This will be the same whenever you write Python code.
+However, these squiggly lines and these errors that you get when you hover over them are specific to the editor that we're using here, which is PyCharm.
+Now, if you happen to be using a different type of editor, they might not give you the same kind of warnings, and they might not give you the same kind of errors.
+And the messages will also be wildly different. So it's always really important to learn the errors that you get back after you run your code, and to remember these words SyntaxError or IndentationError, and this is something that will help you no matter what tools you use, making you a more flexible developer.
+
+(2.2) Coding Exercise02: Debugging Practice 
+
+(3) The Python Input function 
+
+(3.1) What I recommend is whenever you come across a new concept in the course, to make a comment above it so that you can explain to yourself what's actually going on in the line of code below. This way, the next time you come across this line of code and you're not quite sure what's actually happening here, you can have a look at the notes that you've written for yourself in your own words, and hopefully it'll jog your memory and make it much easier to comprehend what's going on.
+
+(3.2) In addition to adding a pound sign manually, you can also highlight a line of code or simply have your cursor on a line of code and hold down command and forward slash.
+If you're on Mac or Control and forward slash if you're on windows.
+And what this does is it takes this line of code out of the computer's awareness, and it's no longer executed when you run this code file.
+So the process is finished without anything being carried out at all, because all the computer is seeing is a blank page, because we've taken all the code out into comments.
+So in order to take this back into code, all you have to do is use the same command that you tried just now. So command forward slash on Mac or control forward slash on windows.
+And this will now again be considered as code by the computer. All right.
+
+(4) Python Variables 
+
+(4.1) "Can you calculate how many characters there are in the name that they type in?"
+For example, if they typed in jack, that would be four.
+If they typed in Angela that would be six.
+Now how do we figure out things when we're programming and we're trying to do something that we haven't
+done before?
+Well, one of the most important skills as a programmer is to be able to use Google well.
+It's to be able to find the answers that you need because it's inevitable that you won't remember
+every single function and you won't know every single function.
+So we need to read documentation and we need to know how to get hold of it.
+So very simple,
+we start off with our query, "how to find the length of a string."
+And then we add our programming language because this will be different in every programming language.
+So I normally just add Python to the end of it.
+And then once we hit Enter, normally we'll get hold of some form of documentation,
+and the W3Schools documentation for Python is not bad.
+And you can also browse through all of the other examples.
+So normally for Python, I stick to W3Schools or StackOverflow,
+and both of these will give you the right answer.
+But if we are reading documentation then you can see that normally there is a whole bunch of other things
+that we can look up, just like a dictionary of Python.
+Now, as you wouldn't start with a dictionary when you're learning a new language,
+believe me, I tried that,
+it did not work,
+you also wouldn't want to learn through everything in the documentation because it's very dry.
+And when you don't have a real-life application, when you're not trying to use a particular function
+or some sort of component, then you also don't remember it very well.
+So I recommend to find what you need when you need it,
+and our brain is for thinking and not for storing,
+because these days, as you know, it's super cheap to buy a single terabyte, storage hard disk
+online.
+I think it costs something like 10 or $20 and it's just getting cheaper every day.
+So don't use your brain to store things,
+use it to think.
+But coming back to our documentation here, in order to get the Python string length, we use the len()
+function.
+And just like the print() function, it's an inbuilt function in Python,
+so we can simply just write len(),
+and then we can use whatever it is we want to measure.
+For example, in this case it's, "Hello world!" and it will output the number of characters in that string.
+So now give it a go yourself.
+
+(4.2) So hopefully you've learned a little bit about documentation and also search.
+And also the importance of being able to get your own answers as a programmer.
+
+(4.3) Coding Exercise03: Variables
