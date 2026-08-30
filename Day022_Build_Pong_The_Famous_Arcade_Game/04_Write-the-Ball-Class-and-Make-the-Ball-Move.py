@@ -19,6 +19,8 @@ screen.setup(width = 800, height = 600)
 screen.bgcolor("black")
 screen.title("My Pong Game")
 screen.tracer(0) # disable the animation
+# Remember that when you turn off the animation,
+# you have to manually update the screen and refresh it every single time. 
 
 # create the paddle instances
 r_paddle = Paddle((350, 0))
